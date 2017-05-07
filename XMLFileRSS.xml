@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>Example Channel</title> //Име на RSS канала
+    <link>http://example.com/</link> //Линк към него
+    <description>My example channel</description> //Описание на този канал
+    <item>
+      <title>News for September the Second</title> // Заглавие на новината
+      <link>http://example.com/2002/09/01</link> //Линк към новината
+      <description>other things happened today</description> // Описание на новината
+      (не е задължително да има)
+    </item>
+    <item>
+      <title>News for September the First</title>
+      <link>http://example.com/2002/09/02</link> //Следваща новина
+    </item>
+  </channel>
+</rss>
